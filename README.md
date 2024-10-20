@@ -9,7 +9,7 @@ This is new React-native application develop by Manoj kumar. It's an demo projec
 
 # Video demo 
 
-[Watch the Demo Video](./videos/video.webm)
+![Watch the Demo Video](./videos/video.webm)
 
 # Getting Started
 
