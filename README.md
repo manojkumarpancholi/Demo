@@ -5,7 +5,7 @@ This is new React-native application develop by Manoj kumar. It's an demo projec
 
 # Dashboard
 
-[Dashbard image](./images/image.png)
+![Dashbard image](./images/image.png)
 
 # Video demo 
 
