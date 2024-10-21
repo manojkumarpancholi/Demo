@@ -17,8 +17,6 @@ const EmployeeList = () => {
   const [employees, setEmployees] = useState([]);
   const [loading, setLoading] = useState(true);
 
-
-  // Fetch employees from API
   const fetchEmployees = async () => {
     try {
       const response = await fetch(API_URL);

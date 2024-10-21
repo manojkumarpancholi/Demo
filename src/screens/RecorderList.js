@@ -14,8 +14,8 @@ import styles from '../styles';
 import {useNavigation} from '@react-navigation/native';
 import RNFS from 'react-native-fs';
 import SoundPlayer from 'react-native-sound-player';
-import {getStorage, removeItemFromStorage, setStarage} from '../untility/util';
-import {itemToRemove, vioceRecorderKey} from '../constants';
+import {getStorage, setStarage} from '../untility/util';
+import { vioceRecorderKey} from '../constants';
 
 const RecorderList = () => {
   const navigation = useNavigation();

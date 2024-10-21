@@ -62,7 +62,7 @@ const SaveRecordingModal = ({ visible, onClose, onSubmit, placeholder }) => {
               >
                 {selectedColor === item && (
                   <Image
-                    source={require('../assets/right.png')} // Right icon
+                    source={require('../assets/right.png')} 
                     style={styles.checkIcon}
                   />
                 )}

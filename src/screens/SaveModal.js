@@ -13,8 +13,6 @@ import SoundPlayer from 'react-native-sound-player';
 
 const SaveModal = ({visible, onClose, name, onSubmit}) => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [selectedBox, setSelectedBox] = useState(null);
-  console.log('name---', name);
 
   const togglePlayPause = () => {
     const filename = name.split('/').pop();
